@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration date="2023/03/30" author="e.World Technology Ltd.">
+  <project id="{3795794f-7dbe-4e1a-9957-b11d2efa9b74}" file="C:\Users\mayan\OneDrive\Documents\PHPReportMaker\Projects\project1.prp" name="project1" product="PHPReportMaker" version="12.0" datetime="2023/03/30 18:13:53" languagefolder="phprptlang" userlevel="-2,&quot;Anonymous&quot;,0;">
+    <table id="c" name="c" caption="c" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="_language" name="language" caption="language" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="language_title" name="language_title" caption="language title" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="package" name="package" caption="package" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="project" name="project" caption="project" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="query" name="query" caption="query" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="quiz_option" name="quiz_option" caption="quiz option" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="quiz_question" name="quiz_question" caption="quiz question" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="user" name="user" caption="user" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="language_report" name="language report" caption="language report" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="language_content" name="language content" caption="language content" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="query_report" name="query report" caption="query report" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="quiz_report" name="quiz report" caption="quiz report" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="package_report" name="package report" caption="package report" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="user_type" name="user_type" caption="user type" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="users_report" name="users report" caption="users report" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="java" name="java" caption="java" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="php" name="php" caption="php" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+  </project>
+</configuration>

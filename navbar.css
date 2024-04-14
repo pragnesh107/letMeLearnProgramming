@@ -1,0 +1,46 @@
+nav{
+    position:sticky;
+    top: 0px;
+    font-family: monospace;
+  }
+.nv2{
+  z-index:4444;
+}
+.nv1{
+  z-index:5555;
+}
+  .navbg {
+    background-color: #0a837f;
+  }
+  
+ul li a svg{
+  transform: translateX(-4px) translateY(-13px) rotate(30deg);
+}
+.hv:hover {
+  text-shadow: 0.1px 0.1px;
+  transform: translateY(-3px);
+}
+
+.hv:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #fff;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+.hv:hover:after { transform: scaleX(1); }
+
+.unique-f{
+  animation: animate 2s linear infinite;
+}
+
+
+@keyframes animate{
+  0%{
+    
+    color:#000;
+  }
+  100%{
+    color: #fff;
+  }
+}

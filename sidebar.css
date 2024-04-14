@@ -1,0 +1,190 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+/* body
+{
+	font-family: "Lato", sans-serif;
+} */
+
+::-webkit-scrollbar{
+	width: 8px;
+}
+::-webkit-scrollbar-thumb{
+	background-color: rgb(0, 0, 0);
+}
+.sidenav
+{
+	color: #000;
+	text-align: center;
+	position: fixed;
+	height: 100%;
+	width: 20%;
+	top: 0vw;
+	left: 0;
+	z-index: 1;
+	padding-top: 20px;
+	border-right: 6px solid #0a837f;
+}
+
+.sidenav .side-image{
+	width: 100%;
+	height: 13vh;
+	/* padding-bottom: 0px; */
+}
+.side-image img{
+	width: 100%;
+	height: 100%;
+	 object-fit: cover;
+}
+
+.sidenav > a
+{
+	background:  #002240;
+	padding: 10px 15px 10px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	display: block;
+}
+.sidenav > a:hover
+{
+	background: blue;
+}
+h3,h2
+{
+	padding: 10px 15px 10px 16px;
+	border-bottom-style: solid;
+}
+.main
+{
+	margin: 0px 3px 3px 20%;
+	background: #fff;
+	margin-left: 20%;
+	padding: 4px 0px;
+	display: inline-block;
+	width: calc( 100vw - 20.8% );
+	height: 82vh;
+}
+
+/*Making responsive*/
+@media screen and (max-width: 600px)
+{
+	.sidenav
+	{
+		padding-top: 15px;
+		width: 155px;
+
+	}
+	.sidenav a
+	{
+		padding-left: 20px;
+		font-size: 18px;
+	}
+	.main
+	{
+		margin-left: 32%;
+		font-size: 15px;
+	}
+	p
+	{
+		display: inline-block;
+	}
+}
+
+
+
+/* dropdown list sidenav css  */
+
+*/
+body {
+    padding:30px 50px;
+}
+
+h1{
+    margin: 0 0 30px;
+}
+
+.accordion{
+    width: 100%;
+	height: 72vh;
+	overflow-y: scroll;
+}
+
+.accordion-tab > .accordion-toggle{
+    position: absolute;
+    display: none;
+}
+
+.accordion-tab > label{
+    color: #fff;
+    background: #0a837f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    position: relative;
+    display: block;
+    padding: 13px 40px 13px 20px;
+    border-top: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.accordion-tab > .accordion-content{
+    max-height: 0;
+    transition: all .40s;
+    overflow: hidden;
+}
+
+.accordion-tab > label:after {
+    content: '\f078';
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    font-family: fontawesome;
+    transform: rotate(90deg);
+    transition:transform .30s ;
+}
+
+.accordion-tab > .accordion-toggle:checked ~ label:after{
+    transform: rotate(0deg);
+}
+
+.accordion-tab > .accordion-toggle:checked ~ .accordion-content{
+    max-height: 100vh;
+}
+
+.accordion-tab > .accordion-content p {
+    margin: 15px 0;
+    padding: 0 20px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.accordion-content ul {
+	margin: 0;
+	padding: 0;
+	
+}
+.accordion-content ul li {
+	line-height: 34px;
+	background-color: #fff;
+	color: #0a837f;
+	margin: 3px 0px;
+	list-style: none;
+	cursor: pointer;
+	padding: 5px 0px;
+}
+.accordion-content >  ul li a{
+	line-height: 34px;
+	color: #0a837f ;
+	text-decoration: none;
+	list-style: none;
+	cursor: pointer;
+	font-weight: bolder;
+	font-size: larger;
+	display: block;
+}
+.accordion-content >  ul li:hover{
+	background-color: #0a837f ;
+}
+.accordion-content >  ul li:hover a{
+	color: #fff !important;
+}
